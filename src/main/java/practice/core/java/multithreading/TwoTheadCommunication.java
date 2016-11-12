@@ -71,8 +71,3 @@ class Task2 implements Runnable {
 		}
 	}
 }
-
-class Mutex {
-	public boolean flag = false;
-	public int i = 1;
-}
