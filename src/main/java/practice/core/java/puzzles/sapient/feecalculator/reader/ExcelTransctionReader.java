@@ -1,4 +1,4 @@
-package com.sapient.feecalculator.reader;
+package practice.core.java.puzzles.sapient.feecalculator.reader;
 
 import java.io.BufferedReader;
 import java.io.File;
