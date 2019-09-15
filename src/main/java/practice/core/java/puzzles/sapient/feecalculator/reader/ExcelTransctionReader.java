@@ -10,7 +10,8 @@ import com.sapient.feecalculator.Constant.FILETYPE;
 import com.sapient.feecalculator.Transaction;
 
 
-public class ExcelTransctionReader extends AbstractTransactionReader implements ITransactionManager {
+public class ExcelTransctionReader{}
+/*public class ExcelTransctionReader extends AbstractTransactionReader implements ITransactionManager {
 
 
 	@Override
@@ -55,4 +56,4 @@ public class ExcelTransctionReader extends AbstractTransactionReader implements 
 	}
 
 
-}
+}*/

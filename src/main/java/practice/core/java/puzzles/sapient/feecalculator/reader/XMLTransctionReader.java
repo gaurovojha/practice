@@ -5,7 +5,8 @@ import java.io.File;
 import com.sapient.feecalculator.Constant.FILETYPE;
 
 
-public class XMLTransctionReader extends AbstractTransactionReader implements ITransactionManager {
+public class XMLTransctionReader {}
+/*public class XMLTransctionReader extends AbstractTransactionReader implements ITransactionManager {
 
 	
 	@Override
@@ -22,4 +23,4 @@ public class XMLTransctionReader extends AbstractTransactionReader implements IT
 		return null;
 	}
 
-}
+}*/

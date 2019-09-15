@@ -21,7 +21,7 @@ class Super{
 
 class Sub extends Super{
 	
-	public short add(int i , int j){
+	public int add(int i , int j){
 		return 0 ;
 	}
 }

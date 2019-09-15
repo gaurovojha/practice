@@ -1,19 +1,9 @@
 package practice.core.java.puzzles.pramati;
-
-
-import java.io.IOException;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;	
+	
 
 public class PramatiWebCrawler {
+	/*// public static DB db = new DB();
 	static List<String> l=new ArrayList<String>();
-	// public static DB db = new DB();
 
 	public static void main(String[] args) throws SQLException, IOException {
 		// db.runSql2("TRUNCATE Record;");
@@ -23,10 +13,10 @@ public class PramatiWebCrawler {
 	}
 
 	public static void processPage(String URL) throws SQLException, IOException {
-		
+
 		//Document doc = Jsoup.connect("http://mail-archives.apache.org/mod_mbox/maven-users/").get();
 		Document doc = Jsoup.connect("http://mail-archives.apache.org/mod_mbox/camel-users/").get();
-		
+
 
 		if (doc.text().contains("Year 2015")) {
 			//System.out.println(URL);
@@ -36,19 +26,19 @@ public class PramatiWebCrawler {
 		Elements questions = doc.select("a[href]");
 		for (Element link : questions) {
 			if (link.attr("href").startsWith("2015")&&link.attr("href").endsWith("date")){
-				
-				
+
+
 				String text=link.toString().replace("<a href=", "").replace("/date\">Date</a>", "/ajax/thread?0").replace("\"", "/");
-				
+
 				System.out.println("Link "+text);
 				l.add(text);
 				//System.out.println("the list "+l);
-				
+
 				//processPage(link.attr("abs:href"));
 			}
 		}
 	}
-	
+
 	
 	public static List<String> mailExtract(List list) throws IOException{
 		List mailList=new ArrayList();
@@ -93,7 +83,7 @@ public class PramatiWebCrawler {
 			//String emailContent = new String(doc.getElementsByTag("from").text().getBytes(), "UTF-8");
 			
 			System.out.println( emailContent);
-			/*Elements */
+			*//*Elements *//*
 		//}
-	}
+	}*/
 }

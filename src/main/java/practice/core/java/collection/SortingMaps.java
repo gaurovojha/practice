@@ -23,8 +23,7 @@ public class SortingMaps {
 	}
 
 	static void sortingValues() {
-		List objList  = new A
-				rrayList();
+		List objList  = new ArrayList();
 		objList.add(new Boolean(false));
 		objList.add(new Integer(1));
 		objList.add(new String("two"));

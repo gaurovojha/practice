@@ -3,73 +3,74 @@ package com.sapient.feecalculator.reader;
 import java.io.File;
 
 import com.sapient.feecalculator.Constant.FILETYPE;
+import practice.core.java.puzzles.sapient.feecalculator.reader.ExcelTransctionReader;
 
 public class TrasactionReader {
 	/**
 	 * 
-	 */
+	 *//*
 	private static TrasactionReader trasactionReader;
-	/**
+	*//**
 	 * 
-	 */
+	 *//*
 	private static ExcelTransctionReader excelTransctionReader;
-	/**
+	*//**
 	 * 
-	 */
-	private static XMLTransctionReader xmlTransctionReader;
-	/**
+	 *//*
+	private static com.sapient.feecalculator.reader.XMLTransctionReader xmlTransctionReader;
+	*//**
 	 * 
-	 */
-	private static TextTransctionReader textTransctionReader;
+	 *//*
+	private static com.sapient.feecalculator.reader.TextTransctionReader textTransctionReader;
 
-	/**
+	*//**
 	 * 
 	 * @return
-	 */
+	 *//*
 	public static TrasactionReader getTrasactionReaderInstance() {
 		if (null == trasactionReader) {
 			synchronized (TrasactionReader.class){
 				if (null == trasactionReader) {
 					trasactionReader = new TrasactionReader();
 					excelTransctionReader= new ExcelTransctionReader();
-					xmlTransctionReader = new XMLTransctionReader();
-					textTransctionReader = new TextTransctionReader();
+					xmlTransctionReader = new com.sapient.feecalculator.reader.XMLTransctionReader();
+					textTransctionReader = new com.sapient.feecalculator.reader.TextTransctionReader();
 				}
 			}
 		}
 		return trasactionReader;
 	}
 
-	/**
+	*//**
 	 * 
 	 * @return
-	 */
+	 *//*
 	public ExcelTransctionReader readExcelFile(){
 		return excelTransctionReader;
 	}
 
-	/**
+	*//**
 	 * 
 	 * @return
-	 */
-	public XMLTransctionReader readXmlFile(){
+	 *//*
+	public com.sapient.feecalculator.reader.XMLTransctionReader readXmlFile(){
 		return xmlTransctionReader;
 	}
 
-	/**
+	*//**
 	 * 
 	 * @return
-	 */
-	public TextTransctionReader readTextFile(){
+	 *//*
+	public com.sapient.feecalculator.reader.TextTransctionReader readTextFile(){
 		return textTransctionReader;
 	}
 
-	/**
+	*//**
 	 * 
 	 * @param fileType
 	 * @return
-	 */
-	public ITransactionManager readFile(FILETYPE fileType,File transactionFile) {
+	 *//*
+	public com.sapient.feecalculator.reader.ITransactionManager readFile(FILETYPE fileType, File transactionFile) {
 		switch (fileType) {
 		case CSV:
 			excelTransctionReader.readTransaction(transactionFile);
@@ -85,7 +86,7 @@ public class TrasactionReader {
 			return null;
 		}
 	}
-
+*/
 
 
 }

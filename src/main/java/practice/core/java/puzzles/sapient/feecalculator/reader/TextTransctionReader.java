@@ -10,6 +10,9 @@ import com.sapient.feecalculator.Constant.FILETYPE;
 import com.sapient.feecalculator.Transaction;
 
 
+public class TextTransctionReader {}
+/*
+
 public class TextTransctionReader extends AbstractTransactionReader implements ITransactionManager {
 
 	
@@ -56,3 +59,4 @@ public class TextTransctionReader extends AbstractTransactionReader implements I
 
 
 }
+*/

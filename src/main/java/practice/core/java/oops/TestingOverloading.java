@@ -26,7 +26,7 @@ class Math {
 		return b[0];
 	}
 
-	public void sum(int[] a) {
+	public void sum(int a) {
 		return;
 	}
 }
