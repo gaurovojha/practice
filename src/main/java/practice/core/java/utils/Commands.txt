@@ -1,0 +1,7 @@
+List all the jars :
+
+mvn -o dependency:list \
+| grep ":.*:.*:.*" \
+| cut -d] -f2- \
+| sed 's/:[a-z]*$//g' \
+| sort -u  > /tmp/dep_list.txt
