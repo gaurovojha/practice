@@ -1,6 +1,6 @@
 package practice.core.java.datesandtime;
 
-import com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl;
+//import com.sun.org.apache.xerces.internal.jaxp.datatype.XMLGregorianCalendarImpl;
 
 import javax.xml.datatype.XMLGregorianCalendar;
 import java.util.GregorianCalendar;
@@ -10,11 +10,11 @@ import java.util.GregorianCalendar;
  */
 public class XmlGregorianCal
 {
-    private XMLGregorianCalendar startDate = new XMLGregorianCalendarImpl(new GregorianCalendar(24,10,10));
+    //private XMLGregorianCalendar startDate = new XMLGregorianCalendarImpl(new GregorianCalendar(24,10,10));
     public static void main(String args[])
     {
-        XMLGregorianCalendar xmlGregorianCalendar = new XMLGregorianCalendarImpl();
+        //XMLGregorianCalendar xmlGregorianCalendar = new XMLGregorianCalendarImpl();
         //UpmDateUtils dateUtils = new
-        System.out.println(xmlGregorianCalendar.toString());
+        //System.out.println(xmlGregorianCalendar.toString());
     }
 }
