@@ -12,23 +12,6 @@ public class MakingAnagrams {
         System.out.println(numberNeeded("cde","abc"));
     }
 
-    // Complete the makeAnagram function below.
-    static int makeAnagram1(String a, String b) {
-        int res = a.length() + b.length();
-        int n = a.length()>b.length() ? a.length() : b.length();
-        Map temp = new HashMap();
-        char[] aArr = a.toCharArray();
-        char[] bArr = b.toCharArray();
-        for(int i=0; i<n ;i++){
-            //if(temp.get(aArr[i]) || temp.)
-            //temp.
-        }
-
-        return res;
-
-    }
-
-
     static int makeAnagram(String a, String b) {
         int res = a.length() + b.length();
 
