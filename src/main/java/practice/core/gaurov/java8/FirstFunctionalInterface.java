@@ -14,12 +14,16 @@ public interface FirstFunctionalInterface {
         System.out.println("my implementation is inside an Interface!!");
     }
 
+    static void firstStaticMethod(){
+        System.out.println("I am a static method in interface.");
+    }
 }
 
 
 class test{
 
     public static void main(String[] args) {
+        FirstFunctionalInterface.firstStaticMethod();
 
         // Anonymous Class : THIS IS AN OLD WAY
 

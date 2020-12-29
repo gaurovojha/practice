@@ -16,6 +16,7 @@ public class InheritanceIssueEx {
 		 * This is an invalid scenario as the whole point of generics is to provide type safety
 		 */
 		//List<Person> personList = new ArrayList<Employee>();
+		//personList.add( new Manager());
 
 	}
 
