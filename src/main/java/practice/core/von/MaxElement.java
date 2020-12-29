@@ -1,4 +1,4 @@
-package practice.core.vonage;
+package practice.core.von;
 
 public class MaxElement {
 

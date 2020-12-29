@@ -1,7 +1,6 @@
-package practice.core.vonage;
+package practice.core.von;
 
 import java.util.Arrays;
-import java.util.Stack;
 
 public class WidestRectangle {
 
