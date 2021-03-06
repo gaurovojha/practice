@@ -12,8 +12,10 @@ public class OptionalEx {
         System.out.println(empty.isPresent());
 
         //of String
-//        Optional<String> hello  = Optional.of("Hello");
-        Optional<String> hello  = Optional.of(null);
+        Optional<String> hello  = Optional.of("Hello");
+//        Optional<String> hello  = Optional.of(null);
+        hello.map(i -> i.concat("World!!") );
+
         String orElse = hello
                 .map(String::toLowerCase)
 //                .orElseThrow(IllegalStateException::new);

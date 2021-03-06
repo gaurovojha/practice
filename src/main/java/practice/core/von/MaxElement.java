@@ -3,8 +3,8 @@ package practice.core.von;
 public class MaxElement {
 
     public static void main(String[] args) {
-
-        System.out.println(solution(213));
+        //find maximun number from all the combinations
+        System.out.println(solution(2133));
         int a = '1';
         a++;
         System.out.println(a);
@@ -17,8 +17,10 @@ public class MaxElement {
         int count[] = new int[10];
         String str = Integer.toString(N);
         // Updating the count array
-        for(int i=0; i < str.length(); i++)
+        for(int i=0; i < str.length(); i++){
             count[str.charAt(i)-'0']++;
+        }
+        
         int result = 0;
         int multiplier = 1;
 
