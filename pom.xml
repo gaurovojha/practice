@@ -39,6 +39,12 @@
             <version>1.13</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>compile</scope>
+        </dependency>
         <!-- <dependency> <groupId>com.uhg.upm3.framework</groupId> <artifactId>upm-core-v1</artifactId>
             <version>1</version> </dependency> -->
         
